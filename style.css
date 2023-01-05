@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.shoes-div{
+    height: 100vh;
+    width: 100%;
+    justify-content: space-between;
+    background-image: url(./black\ shoes.jpg);
+    background-size: cover;
+    background-color: aqua;
+}
+.top-ul{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 70px;
+}
+.logo-nike{
+    height: 100px;
+    width: 60px;
+}
+.logo-nike img{
+    height: 30px;
+    width: 90%;
+}
+.text-sect{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.football-img{
+    width: 10%;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    /* background-color: aqua; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 200px;
+    border: 2px solid brown;
+}
+.last-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+.last-frst{
+    width: 18%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.last-frst img{
+    width: 90px;
+}
+.last-scnd{
+    width: 18%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.last-scnd img{
+    height: 100%;
+    width: 100%;
+}
+.last-third{
+    width: 18%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.last-third img{
+    height: 100%;
+    width: 100%;
+}
+.last-fourth{
+    width: 18%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.last-fourth img{
+    height: 100%;
+    width: 100%;
+}
+@media(max-width:768px){
+    .shoes-div{
+        width: 100%;
+    }
+    .top-ul{
+        padding: 5px 70px;
+    }
+    .price-sect{
+        padding-right: 0px;
+    }
+    .last-div{
+        width: 100%;
+        padding: 20px 0px;
+    }
+}
